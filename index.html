@@ -612,14 +612,14 @@
                 })
             })
             .then(response => {
-                alert('Thanks for signing up, ' + name + '! We\'ll contact you at ' + email);
+                alert('Thanks for signing up, ' + name + '! We\'ll be in touch soon.');
                 this.reset();
                 button.disabled = false;
                 button.textContent = 'Count Me In';
             })
             .catch(error => {
                 console.error('Error:', error);
-                alert('Thanks for signing up, ' + name + '! We\'ll contact you at ' + email);
+                alert('Thanks for signing up, ' + name + '! We\'ll be in touch soon.');
                 this.reset();
                 button.disabled = false;
                 button.textContent = 'Count Me In';
